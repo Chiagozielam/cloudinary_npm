@@ -4,4 +4,4 @@ nvm:
 matrix:
   include:
   - node_js: "6"
-    script: nvm install 12 && nvm run compile && nvm use 6 && npm run test-with-temp-cloud
+    script: nvm install 12 && npm run compile && nvm use 6 && npm run test-with-temp-cloud
